@@ -7,6 +7,7 @@ import Projects from "@/components/sections/Projects";
 import { animateScroll as scroll } from "react-scroll";
 
 
+
 export default function Portfolio() {
   return (
     <div className="font-sans bg-gray-50 text-gray-900">
