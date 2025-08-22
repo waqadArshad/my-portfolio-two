@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Lightbox from "@/components/Lightbox";
 import { useState } from "react";
+import nextConfig from "@/next.config";
 
 interface Project {
   title: string;
@@ -23,7 +24,7 @@ const projects: Project[] = [
     description:
       "A POS app for waiters and cashiers of small to large restaurants to handle orders easily.",
     tech: "Flutter, Provider, PHP, Firebase, Windcave",
-    image: "/images/projects/kiwi-pos.png",
+    image: `/${nextConfig.basePath}/images/projects/kiwi-pos.png`,
     links: [
       { label: "Website", url: "https://v2.loveeatery.co.nz/" },
       { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.loveeatery.loveeatery_pos" },
@@ -36,7 +37,7 @@ const projects: Project[] = [
     description:
       "A complete suite of 10+ apps for restaurant chain management from inventory to user orders.",
     tech: "Flutter, Bloc, PHP, Node.js, Firebase, Stripe (with M2 readers), Thermal Printers, WebSockets",
-    image: "/images/projects/sanmiwago.png",
+    image: `/${nextConfig.basePath}/images/projects/sanmiwago.png`,
     links: [
       { label: "Website", url: "https://sanmiwagodumplinghouse.com/" },
       { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.sanmiwagodumplinghouse.sanmiwagoUser" },
@@ -48,7 +49,7 @@ const projects: Project[] = [
     duration: "04/24 - Present",
     description: "Reminder app with in-app subscriptions.",
     tech: "Flutter, GetX, Node.js, Firebase, Revenuecat, Twilio",
-    image: "/images/projects/crystals.png",
+    image: `/${nextConfig.basePath}/images/projects/crystals.png`,
     // image: "/images/projects/techbrava.png",
     links: [
       { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.techbarva.reminders" },
@@ -61,7 +62,7 @@ const projects: Project[] = [
     description:
       "A dating app with information about pubs and their events.",
     tech: "Flutter, GetX, Node.js, Firebase, Revenuecat",
-    image: "/images/projects/singles-friendly.png",
+    image: `/${nextConfig.basePath}/images/projects/singles-friendly.png`,
     links: [
       { label: "Website", url: "https://singlesfriendly.com/" },
       { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.datemypub.dateorbuddy.date_my_pub" },
@@ -74,7 +75,7 @@ const projects: Project[] = [
     description:
       "Customer support system with agents & staff management.",
     tech: "Flutter, Provider, Node.js, Firebase, PesaPal",
-    image: "/images/projects/car-peak.png",
+    image: `/${nextConfig.basePath}/images/projects/car-peak.png`,
     // image: "/images/projects/prime-support.png",
     links: [
       { label: "Admin App", url: "https://play.google.com/store/apps/details?id=com.primesupport.admin" },
