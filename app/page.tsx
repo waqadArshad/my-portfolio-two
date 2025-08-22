@@ -270,7 +270,8 @@ export default function Portfolio() {
           <Button variant="outline" href="https://www.linkedin.com/in/waqad-arshad/" target="_blank">
             LinkedIn
           </Button>
-          <Button href="mailto:waqadarshad2@gmail.com">
+          {/* <Button href="mailto:waqadarshad2@gmail.com"> */}
+          <Button href="mailto&#58;%&#55;7aqa&#100;&#97;%72%&#55;3&#37;6&#56;&#37;6&#49;d&#50;&#64;g&#109;a&#37;6&#57;&#108;&#46;&#99;o%6D">
             Email Me
           </Button>
           <Button variant="outline" href="https://github.com/waqadArshad" target="_blank">
